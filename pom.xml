@@ -26,7 +26,6 @@
     </properties>
 
     <dependencies>
-
         <!--引入bootstrap-->
         <dependency>
             <groupId>org.webjars</groupId>
