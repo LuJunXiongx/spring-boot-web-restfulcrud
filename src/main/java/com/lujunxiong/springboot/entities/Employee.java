@@ -2,13 +2,20 @@ package com.lujunxiong.springboot.entities;
 
 import java.util.Date;
 
+/**
+ * @author lujunxiong
+ * 员工实体类
+ */
 public class Employee {
 
 	private Integer id;
     private String lastName;
 
     private String email;
-    //1 male, 0 female
+
+    /**
+     * 1 male, 0 female
+     */
     private Integer gender;
     private Department department;
     private Date birth;

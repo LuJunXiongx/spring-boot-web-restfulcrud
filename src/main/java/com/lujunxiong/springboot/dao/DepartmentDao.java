@@ -9,6 +9,9 @@ import org.springframework.stereotype.Repository;
 
 
 
+/**
+ * @author lujunxiong
+ */
 @Repository
 public class DepartmentDao {
 

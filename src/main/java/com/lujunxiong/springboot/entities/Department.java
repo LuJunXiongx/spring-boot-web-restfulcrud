@@ -1,5 +1,9 @@
 package com.lujunxiong.springboot.entities;
 
+/**
+ * @author lujunxiong
+ * 部门实体类
+ */
 public class Department {
 
 	private Integer id;

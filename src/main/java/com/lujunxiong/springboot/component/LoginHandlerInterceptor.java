@@ -8,9 +8,19 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 登录检查，
+ * @author lujunxiong
  */
 public class LoginHandlerInterceptor implements HandlerInterceptor {
-    //目标方法执行之前
+
+
+    /**
+     * 目标方法执行之前
+     * @param request
+     * @param response
+     * @param handler
+     * @return
+     * @throws Exception
+     */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         Object user = request.getSession().getAttribute( "loginUser" );

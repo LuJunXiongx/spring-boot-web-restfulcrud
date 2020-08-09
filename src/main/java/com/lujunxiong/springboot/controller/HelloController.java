@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.Arrays;
 import java.util.Map;
 
+/**
+ * @author lujunxiong
+ */
 @Controller
 public class HelloController {
     /*@RequestMapping({"/","/index.xml"})
@@ -19,7 +22,13 @@ public class HelloController {
     public String hello(){
         return "hello controller";
     }
-    //查出一些数据，在页面展示
+
+
+    /**
+     * 查出一些数据，在页面展示
+     * @param map
+     * @return
+     */
     @RequestMapping("/success")
     public String success(Map<String,Object> map){
         //classpath:/templates/success.html

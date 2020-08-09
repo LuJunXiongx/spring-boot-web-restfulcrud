@@ -10,10 +10,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
 
+/**
+ * @author lujunxiong
+ */
 @Controller
 public class LoginController {
 
-    //@RequestMapping(value = "/user/login",method = RequestMethod.POST)
+    /*@RequestMapping(value = "/user/login",method = RequestMethod.POST)*/
+
+
     @PostMapping(value = "/user/login")
     public String login(@RequestParam("username") String username,
                         @RequestParam("password") String password,
